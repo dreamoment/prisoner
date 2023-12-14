@@ -1,0 +1,26 @@
+{
+  "name": "@dreamoment/prisoner",
+  "version": "0.0.7",
+  "type": "module",
+  "main": "dist/index.js",
+  "author": "dreamoment-npm",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "publish:patch": "npm version patch && npm publish"
+  },
+  "dependencies": {
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vue-tsc": "^1.8.25"
+  }
+}
